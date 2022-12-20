@@ -2,7 +2,7 @@
 
 Maryland's Board of Elections provides precinct-level results in CSV files. This Python script imports that CSV file into an SQLite database.
 
-## System requirements:
+## System requirements
 * Python 3
 * SQLite 3
 
@@ -29,5 +29,5 @@ The following headings are required in the CSV file:
 * Mail-In Ballot 2 Votes Against
 
 
-## Running this script:
+## Running this script
 `python3 import_to_sqlite.py directory_for_sqlite_db path_to_csv_file`
